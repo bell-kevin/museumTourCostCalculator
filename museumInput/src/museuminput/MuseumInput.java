@@ -1,21 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package museuminput;
 
 import java.util.Scanner;
 
-/**
- *
- * @author 4800590195
- */
-public class MuseumInput {
+class MuseumInput {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         //declare variables
         Scanner stdIn = new Scanner(System.in);
@@ -67,5 +55,4 @@ public class MuseumInput {
         //output
         System.out.print("Total tour cost = $" + totalTourPrice + " \n");
     }
-
 }
